@@ -1,0 +1,22 @@
+.skills_section {
+  padding-bottom: 60px;
+}
+.skills_section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills_wrapper {
+  max-width: 390px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills_wrapper p {
+  background-color: var(--color4);
+  color: var(--color);
+  padding: 4px 15px;
+  margin-bottom: 20px;
+}

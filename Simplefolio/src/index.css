@@ -1,0 +1,83 @@
+@font-face {
+  font-family: poppins;
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: poppins_bold;
+  src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: poppins_extrabold;
+  src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: poppins_black;
+  src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+:root {
+  --color: #90a0d9;
+  --color2: #cdcdff;
+  --color3: #bdbddd;
+  --color4: #2a2f4c;
+  --color5: #23283e;
+}
+
+* {
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-family: poppins;
+  color: var(--color3);
+  text-align: center;
+}
+
+h1 {
+  color: var(--color2);
+  font-size: 40px;
+  text-align: center;
+  font-family: poppins_bold;
+}
+
+h2 {
+  color: var(--color2);
+  text-transform: uppercase;
+  font-family: poppins_extrabold;
+}
+
+h3 {
+  color: var(--color2);
+}
+
+h1 span {
+  color: var(--color);
+  font-family: poppins_bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  text-align: center;
+  margin-inline: auto;
+  display: block;
+  color: var(--color);
+  border: 1px solid var(--color);
+  max-width: 94px;
+  padding-block: 4px;
+}
+
+.container {
+  max-width: 1400px;
+  margin-inline: auto;
+  padding: 1% 3%;
+}
