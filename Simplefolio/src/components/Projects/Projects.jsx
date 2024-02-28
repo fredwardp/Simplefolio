@@ -1,7 +1,7 @@
 import Project from "../Projekt/Project";
 import "./Projects.css";
 
-const Projects = (props) => {
+const Projects = () => {
   return (
     <section className="projects_section container">
       <h2>Projects</h2>
