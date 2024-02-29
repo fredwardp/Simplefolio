@@ -16,4 +16,5 @@
   max-width: 90ch;
   margin-inline: auto;
   padding-bottom: 30px;
+  color: var(--color3);
 }

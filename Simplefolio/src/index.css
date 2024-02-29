@@ -1,18 +1,18 @@
 @font-face {
   font-family: poppins;
-  src: url(./assets/fonts/Poppins-Regular.ttf);
+  src: url(/public/fonts/Poppins-Regular.ttf);
 }
 @font-face {
   font-family: poppins_bold;
-  src: url(./assets/fonts/Poppins-Bold.ttf);
+  src: url(/public/fonts//Poppins-Bold.ttf);
 }
 @font-face {
   font-family: poppins_extrabold;
-  src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+  src: url(/public/fonts//Poppins-ExtraBold.ttf);
 }
 @font-face {
   font-family: poppins_black;
-  src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+  src: url(/public/fonts//Poppins-ExtraBold.ttf);
 }
 
 :root {
@@ -48,13 +48,13 @@ h1 {
 }
 
 h2 {
-  color: var(--color2);
+  color: var(--color3);
   text-transform: uppercase;
   font-family: poppins_extrabold;
 }
 
 h3 {
-  color: var(--color2);
+  color: var(--color3);
 }
 
 h1 span {

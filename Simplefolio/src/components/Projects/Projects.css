@@ -21,10 +21,6 @@
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.box h3 {
-  color: var(--color2);
-}
-
 .projects_p {
   color: var(--color);
 }
